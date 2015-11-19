@@ -1,2 +1,5 @@
 2015-03 ECSE429 Project.pdf
 *.jpg
+*.log
+core
+*.swp
