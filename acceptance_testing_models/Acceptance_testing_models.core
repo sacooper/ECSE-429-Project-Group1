@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_hTw_sI7TEeWSnf0ym-yeOQ" name="Acceptance_testing_models">
+  <models xsi:type="core:COREFeatureModel" href="#_hTxmwI7TEeWSnf0ym-yeOQ"/>
+  <models xsi:type="ram:Aspect" href="Req1.ram#_K90b8I7UEeWSnf0ym-yeOQ"/>
+  <models xsi:type="ram:Aspect" href="Req2.ram#_MUjUoI7wEeWaidJahGLuzw"/>
+  <models xsi:type="ram:Aspect" href="Req3.ram#_i_Gq4I75EeWGjMhWUb-zIA"/>
+  <featureModel xmi:id="_hTxmwI7TEeWSnf0ym-yeOQ" coreConcern="_hTw_sI7TEeWSnf0ym-yeOQ" root="_hTxmwY7TEeWSnf0ym-yeOQ">
+    <features xmi:id="_hTxmwY7TEeWSnf0ym-yeOQ" name="Acceptance_testing_models"/>
+  </featureModel>
+</core:COREConcern>
