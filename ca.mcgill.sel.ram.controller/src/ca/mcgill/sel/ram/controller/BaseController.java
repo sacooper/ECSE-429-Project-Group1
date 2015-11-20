@@ -55,7 +55,6 @@ public class BaseController extends CoreBaseController {
             LayoutElement layoutElement) {
         Aspect aspect = EMFModelUtil.getRootContainerOfType(container, RamPackage.Literals.ASPECT);
 
-        // Get the ContainerMap.
         ContainerMapImpl containerMap = EMFModelUtil.getEntryFromMap(aspect.getLayout().getContainers(), container);
 
         // Get the new child descriptor for the entry of the map.

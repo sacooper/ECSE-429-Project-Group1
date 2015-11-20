@@ -1,2 +1,4 @@
 2015-03 ECSE429 Project.pdf
 *.jpg
+.classpath
+MANIFEST.MF
