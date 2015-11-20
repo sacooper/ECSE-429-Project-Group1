@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_yVCbYI-vEeWf06fYQf0AiQ" name="Req5">
+  <coreConcern href="Acceptance_testing_models.core#_hTw_sI7TEeWSnf0ym-yeOQ"/>
+  <structuralView xmi:id="_yVCbYY-vEeWf06fYQf0AiQ">
+    <classes xsi:type="ram:Class" xmi:id="_zwOnAI-vEeWf06fYQf0AiQ" name="Test" visibility="public">
+      <operations xmi:id="_2XPskI-vEeWf06fYQf0AiQ" name="test" visibility="public" returnType="_yVCbZY-vEeWf06fYQf0AiQ"/>
+      <associationEnds xmi:id="_7RpxEI-vEeWf06fYQf0AiQ" name="myClassOne" lowerBound="1" assoc="_7RqYII-vEeWf06fYQf0AiQ"/>
+    </classes>
+    <classes xsi:type="ram:Class" xmi:id="_4jMmwI-vEeWf06fYQf0AiQ" name="ClassOne" visibility="public">
+      <operations xmi:id="_53qfUI-vEeWf06fYQf0AiQ" name="create" visibility="public" returnType="_4jMmwI-vEeWf06fYQf0AiQ" operationType="Constructor"/>
+      <operations xmi:id="_58zeAI-vEeWf06fYQf0AiQ" name="destroy" visibility="public" returnType="_yVCbYo-vEeWf06fYQf0AiQ" operationType="Destructor"/>
+      <operations xmi:id="_-IkT0I-vEeWf06fYQf0AiQ" name="test1" visibility="public" returnType="_yVCbYo-vEeWf06fYQf0AiQ"/>
+      <associationEnds xmi:id="_7RpxEY-vEeWf06fYQf0AiQ" name="myTest" lowerBound="1" assoc="_7RqYII-vEeWf06fYQf0AiQ"/>
+    </classes>
+    <associations xmi:id="_7RqYII-vEeWf06fYQf0AiQ" name="Test_ClassOne" ends="_7RpxEI-vEeWf06fYQf0AiQ _7RpxEY-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RVoid" xmi:id="_yVCbYo-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_yVCbY4-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_yVCbZI-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_yVCbZY-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_yVCbZo-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RString" xmi:id="_yVCbZ4-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_yVCbaI-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_yVCbaY-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_yVCbao-vEeWf06fYQf0AiQ"/>
+  </structuralView>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_erq9M4-xEeWf06fYQf0AiQ" specifies="_2XPskI-vEeWf06fYQf0AiQ">
+    <specification xmi:id="_erq9NI-xEeWf06fYQf0AiQ">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_erq9NY-xEeWf06fYQf0AiQ" covered="_erq9N4-xEeWf06fYQf0AiQ" message="_erq9OI-xEeWf06fYQf0AiQ"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_erq9No-xEeWf06fYQf0AiQ" covered="_erq9N4-xEeWf06fYQf0AiQ" message="_erq9OY-xEeWf06fYQf0AiQ"/>
+      <lifelines xmi:id="_erq9N4-xEeWf06fYQf0AiQ" represents="_erq9Oo-xEeWf06fYQf0AiQ" coveredBy="_erq9NY-xEeWf06fYQf0AiQ _erq9No-xEeWf06fYQf0AiQ"/>
+      <messages xmi:id="_erq9OI-xEeWf06fYQf0AiQ" sendEvent="_erq9O4-xEeWf06fYQf0AiQ" receiveEvent="_erq9NY-xEeWf06fYQf0AiQ" signature="_2XPskI-vEeWf06fYQf0AiQ"/>
+      <messages xmi:id="_erq9OY-xEeWf06fYQf0AiQ" sendEvent="_erq9No-xEeWf06fYQf0AiQ" receiveEvent="_erq9PI-xEeWf06fYQf0AiQ" signature="_2XPskI-vEeWf06fYQf0AiQ" messageSort="reply"/>
+      <properties xmi:id="_erq9Oo-xEeWf06fYQf0AiQ" name="target" lowerBound="1" type="_zwOnAI-vEeWf06fYQf0AiQ"/>
+      <formalGates xmi:id="_erq9O4-xEeWf06fYQf0AiQ" message="_erq9OI-xEeWf06fYQf0AiQ" name="in_test"/>
+      <formalGates xmi:id="_erq9PI-xEeWf06fYQf0AiQ" message="_erq9OY-xEeWf06fYQf0AiQ" name="out_test"/>
+    </specification>
+  </messageViews>
+  <layout xmi:id="_yVCba4-vEeWf06fYQf0AiQ">
+    <containers xmi:id="_yVDCcI-vEeWf06fYQf0AiQ" key="_yVCbYY-vEeWf06fYQf0AiQ">
+      <value xmi:id="_zwPOEI-vEeWf06fYQf0AiQ" key="_zwOnAI-vEeWf06fYQf0AiQ">
+        <value xmi:id="_zwPOEY-vEeWf06fYQf0AiQ" x="547.0" y="144.0"/>
+      </value>
+      <value xmi:id="_4jNN0I-vEeWf06fYQf0AiQ" key="_4jMmwI-vEeWf06fYQf0AiQ">
+        <value xmi:id="_4jNN0Y-vEeWf06fYQf0AiQ" x="573.00006" y="326.00003"/>
+      </value>
+    </containers>
+    <containers xmi:id="_erq9MI-xEeWf06fYQf0AiQ" key="_erq9M4-xEeWf06fYQf0AiQ">
+      <value xmi:id="_erq9MY-xEeWf06fYQf0AiQ" key="_erq9N4-xEeWf06fYQf0AiQ">
+        <value xmi:id="_erq9Mo-xEeWf06fYQf0AiQ" x="100.0" y="100.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ASCII"?>
+<ram:Aspect xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ram="http://cs.mcgill.ca/sel/ram/3.0" xmi:id="_vin-II-vEeWf06fYQf0AiQ" name="Req4">
+  <coreConcern href="Acceptance_testing_models.core#_hTw_sI7TEeWSnf0ym-yeOQ"/>
+  <structuralView xmi:id="_vin-IY-vEeWf06fYQf0AiQ">
+    <classes xsi:type="ram:Class" xmi:id="_vin-Io-vEeWf06fYQf0AiQ" name="Test" visibility="public">
+      <operations xmi:id="_vin-I4-vEeWf06fYQf0AiQ" name="test" visibility="public" returnType="_vin-KI-vEeWf06fYQf0AiQ"/>
+      <operations xmi:id="_vin-JI-vEeWf06fYQf0AiQ" name="testVoid" visibility="public" returnType="_vin-JY-vEeWf06fYQf0AiQ"/>
+    </classes>
+    <types xsi:type="ram:RVoid" xmi:id="_vin-JY-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RAny" xmi:id="_vin-Jo-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RBoolean" xmi:id="_vin-J4-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RInt" xmi:id="_vin-KI-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RChar" xmi:id="_vin-KY-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RString" xmi:id="_vin-Ko-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RDouble" xmi:id="_vin-K4-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RFloat" xmi:id="_vin-LI-vEeWf06fYQf0AiQ"/>
+    <types xsi:type="ram:RLong" xmi:id="_vin-LY-vEeWf06fYQf0AiQ"/>
+  </structuralView>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_vin-Lo-vEeWf06fYQf0AiQ" specifies="_vin-I4-vEeWf06fYQf0AiQ">
+    <specification xmi:id="_vin-L4-vEeWf06fYQf0AiQ">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_vin-MI-vEeWf06fYQf0AiQ" covered="_vin-Mo-vEeWf06fYQf0AiQ" message="_vin-M4-vEeWf06fYQf0AiQ"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_vin-MY-vEeWf06fYQf0AiQ" covered="_vin-Mo-vEeWf06fYQf0AiQ" message="_vin-NI-vEeWf06fYQf0AiQ"/>
+      <lifelines xmi:id="_vin-Mo-vEeWf06fYQf0AiQ" represents="_vin-NY-vEeWf06fYQf0AiQ" coveredBy="_vin-MI-vEeWf06fYQf0AiQ _vin-MY-vEeWf06fYQf0AiQ"/>
+      <messages xmi:id="_vin-M4-vEeWf06fYQf0AiQ" sendEvent="_vin-No-vEeWf06fYQf0AiQ" receiveEvent="_vin-MI-vEeWf06fYQf0AiQ" signature="_vin-I4-vEeWf06fYQf0AiQ"/>
+      <messages xmi:id="_vin-NI-vEeWf06fYQf0AiQ" sendEvent="_vin-MY-vEeWf06fYQf0AiQ" receiveEvent="_vin-N4-vEeWf06fYQf0AiQ" signature="_vin-I4-vEeWf06fYQf0AiQ" messageSort="reply"/>
+      <properties xmi:id="_vin-NY-vEeWf06fYQf0AiQ" name="target" lowerBound="1" type="_vin-Io-vEeWf06fYQf0AiQ"/>
+      <formalGates xmi:id="_vin-No-vEeWf06fYQf0AiQ" message="_vin-M4-vEeWf06fYQf0AiQ" name="in_test"/>
+      <formalGates xmi:id="_vin-N4-vEeWf06fYQf0AiQ" message="_vin-NI-vEeWf06fYQf0AiQ" name="out_test"/>
+    </specification>
+  </messageViews>
+  <messageViews xsi:type="ram:MessageView" xmi:id="_vin-OI-vEeWf06fYQf0AiQ" specifies="_vin-JI-vEeWf06fYQf0AiQ">
+    <specification xmi:id="_vin-OY-vEeWf06fYQf0AiQ">
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_vin-Oo-vEeWf06fYQf0AiQ" covered="_vin-PI-vEeWf06fYQf0AiQ" message="_vin-PY-vEeWf06fYQf0AiQ"/>
+      <fragments xsi:type="ram:MessageOccurrenceSpecification" xmi:id="_vin-O4-vEeWf06fYQf0AiQ" covered="_vin-PI-vEeWf06fYQf0AiQ" message="_vin-Po-vEeWf06fYQf0AiQ"/>
+      <lifelines xmi:id="_vin-PI-vEeWf06fYQf0AiQ" represents="_vin-P4-vEeWf06fYQf0AiQ" coveredBy="_vin-Oo-vEeWf06fYQf0AiQ _vin-O4-vEeWf06fYQf0AiQ"/>
+      <messages xmi:id="_vin-PY-vEeWf06fYQf0AiQ" sendEvent="_vin-QI-vEeWf06fYQf0AiQ" receiveEvent="_vin-Oo-vEeWf06fYQf0AiQ" signature="_vin-JI-vEeWf06fYQf0AiQ"/>
+      <messages xmi:id="_vin-Po-vEeWf06fYQf0AiQ" sendEvent="_vin-O4-vEeWf06fYQf0AiQ" receiveEvent="_vin-QY-vEeWf06fYQf0AiQ" signature="_vin-JI-vEeWf06fYQf0AiQ" messageSort="reply"/>
+      <properties xmi:id="_vin-P4-vEeWf06fYQf0AiQ" name="target" lowerBound="1" type="_vin-Io-vEeWf06fYQf0AiQ"/>
+      <formalGates xmi:id="_vin-QI-vEeWf06fYQf0AiQ" message="_vin-PY-vEeWf06fYQf0AiQ" name="in_testVoid"/>
+      <formalGates xmi:id="_vin-QY-vEeWf06fYQf0AiQ" message="_vin-Po-vEeWf06fYQf0AiQ" name="out_testVoid"/>
+    </specification>
+  </messageViews>
+  <layout xmi:id="_virogI-vEeWf06fYQf0AiQ">
+    <containers xmi:id="_virogY-vEeWf06fYQf0AiQ" key="_vin-IY-vEeWf06fYQf0AiQ">
+      <value xmi:id="_virogo-vEeWf06fYQf0AiQ" key="_vin-Io-vEeWf06fYQf0AiQ">
+        <value xmi:id="_virog4-vEeWf06fYQf0AiQ" x="596.0" y="165.00006"/>
+      </value>
+    </containers>
+    <containers xmi:id="_virohI-vEeWf06fYQf0AiQ" key="_vin-Lo-vEeWf06fYQf0AiQ">
+      <value xmi:id="_virohY-vEeWf06fYQf0AiQ" key="_vin-Mo-vEeWf06fYQf0AiQ">
+        <value xmi:id="_visPkI-vEeWf06fYQf0AiQ" x="100.0" y="100.0"/>
+      </value>
+    </containers>
+    <containers xmi:id="_visPkY-vEeWf06fYQf0AiQ" key="_vin-OI-vEeWf06fYQf0AiQ">
+      <value xmi:id="_visPko-vEeWf06fYQf0AiQ" key="_vin-PI-vEeWf06fYQf0AiQ">
+        <value xmi:id="_visPk4-vEeWf06fYQf0AiQ" x="100.0" y="100.0"/>
+      </value>
+    </containers>
+  </layout>
+</ram:Aspect>

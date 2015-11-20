@@ -2,3 +2,6 @@
 *.jpg
 .classpath
 MANIFEST.MF
+*.log
+core
+*.swp
