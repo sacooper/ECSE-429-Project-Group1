@@ -4,6 +4,8 @@
   <models xsi:type="ram:Aspect" href="Req1.ram#_K90b8I7UEeWSnf0ym-yeOQ"/>
   <models xsi:type="ram:Aspect" href="Req2.ram#_MUjUoI7wEeWaidJahGLuzw"/>
   <models xsi:type="ram:Aspect" href="Req3.ram#_i_Gq4I75EeWGjMhWUb-zIA"/>
+  <models xsi:type="ram:Aspect" href="Req4.ram#_vin-II-vEeWf06fYQf0AiQ"/>
+  <models xsi:type="ram:Aspect" href="Req5.ram#_yVCbYI-vEeWf06fYQf0AiQ"/>
   <featureModel xmi:id="_hTxmwI7TEeWSnf0ym-yeOQ" coreConcern="_hTw_sI7TEeWSnf0ym-yeOQ" root="_hTxmwY7TEeWSnf0ym-yeOQ">
     <features xmi:id="_hTxmwY7TEeWSnf0ym-yeOQ" name="Acceptance_testing_models"/>
   </featureModel>
