@@ -54,7 +54,7 @@ public class BaseController extends CoreBaseController {
     protected Command createLayoutElementCommand(EditingDomain editingDomain, EObject container, EObject object,
             LayoutElement layoutElement) {
         Aspect aspect = EMFModelUtil.getRootContainerOfType(container, RamPackage.Literals.ASPECT);
-
+                
         ContainerMapImpl containerMap = EMFModelUtil.getEntryFromMap(aspect.getLayout().getContainers(), container);
 
         // Get the new child descriptor for the entry of the map.

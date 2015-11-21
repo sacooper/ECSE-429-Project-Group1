@@ -1,4 +1,4 @@
-package group01.ca.mcgill.sel.ram.gui;
+/*package group01.ca.mcgill.sel.ram.gui;
 
 import static org.junit.Assert.*;
 
@@ -11,4 +11,4 @@ public class MessageHandlerTest {
         fail("Not yet implemented");
     }
 
-}
+}*/
