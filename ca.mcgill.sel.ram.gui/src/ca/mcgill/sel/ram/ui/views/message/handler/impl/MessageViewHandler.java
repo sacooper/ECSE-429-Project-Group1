@@ -417,6 +417,7 @@ public class MessageViewHandler extends AbstractViewHandler implements IMessageV
 
         EnumSet<FragmentOptions> availableOptions = EnumSet.allOf(FragmentOptions.class);
 
+        
         /**
          * If there is no fragment in an operand, the fragment is null and we need to use the containing combined
          * fragment to retrieve the initial message.
